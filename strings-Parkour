@@ -1,0 +1,26 @@
+Event:
+  Join: '&0[&bThis server uses &3Parkour &b%VERSION%&0]'
+Parkour:
+  Join: Joined &b%COURSE%
+  Leave: You have left &b%COURSE%
+  Created: Created and Selected &b%COURSE%&f!
+  Delete: '%COURSE% has been deleted!'
+  Reset: '%COURSE% has been reset!'
+  Finish: '%COURSE% has been set to finished!'
+  Lobby: You have joined the lobby
+  Teleport: You have teleported to %COURSE%
+  Invite:
+    Send: Invitation to &b%COURSE% &fsent to &b%TARGET%
+    Recieve1: '&b%PLAYER% &fhas invited you to &b%COURSE%'
+    Recieve2: To accept, type &3/pa join %COURSE%
+Error:
+  TooMany: Too many arguments!
+  TooLittle: Not enough arguments!
+  Exist: This course already exists!
+  NoExist: '%COURSE% doesn''t exist!'
+  World: You are not in the correct World!
+  Unknown: Unknown course!
+Other:
+  Reload: Config Reloaded!
+  Kit: Kit Given!
+NoPermission: 'You do not have Permission: &b%PERMISSION%'
