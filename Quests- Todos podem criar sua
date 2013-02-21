@@ -1,0 +1,36 @@
+Quests:
+  test:
+    quest1:
+      name: Tudo tem um Inicio!
+      welcome: Olá.
+      between: Nossa terras esta com grandes problemas precisamos de um guereiro e acho que esse é voce mate 20 zombies e prove sua coragem
+      end: Parabens,Voce Completou a Missão "Tudo tem um Inicio!".
+      task: Mate 20 Zombies.
+    repeatable: true
+    task:
+      kill:
+        zombie:
+          amount: 20
+    reward:
+      '354':
+        amount: 10
+      xp: 1000
+  quest2:
+    text:
+      name: Guereiro do PvP!.
+      welcome: Bem Vindo denovo.
+      between: Já que voce matou grandes zumbies, quero ver seu poder mate 2 Guerreiros.
+      end: Parabens voce completou a missão "Guereiro do PvP!".
+      task: Mate 2 Guereiros.
+    requires:
+      quest: test
+      level:
+        questing: 2
+    repeatable: false
+    task:
+      kill:
+        player:
+          amount: 2
+    reward:
+      money: 200
+      xp: 1000
