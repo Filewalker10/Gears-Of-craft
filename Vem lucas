@@ -1,20 +1,20 @@
-alert:
-- '&player has just entered the &level hack level.'
-- '&player''s last failed check was: &check.'
-- Type '/anticheat report &player' for more information.
-warning:
-  player_warning:
-  - '[AntiCheat] Hacking is not permitted.'
-  - '[AntiCheat] If you continue to hack, action will be taken.'
+alerta:
+- '&player entrou no &level de level Hacker.'
+- '&player''s ultima verificação foi falhada: &check.'
+- Use '/anticheat para reportar &player' para mais informaçoes.
+Atenção:
+  jogador perigoso:
+  - '[Antihack] hack não é permitido.'
+  - '[Antihack] Se você continuar usando hack,se continuar com isso pode ser pego!.'
 ban:
-  ban_reason: Banned by AntiCheat
-  ban_broadcast: '[AntiCheat] &player was banned for hacking.'
+  ban_reason: Banido por uso de programa ilegal by antihack
+  ban_broadcast: '[Antihack] &player foi banido por uso de hack.'
 kick:
-  kick_reason: Kicked by AntiCheat
-  kick_broadcast: '[AntiCheat] &player was kicked for hacking.'
+  kick_reason: Kickado pelo Antihack
+  kick_broadcast: '[Antihac] &player foi kickado por hack.'
 chat:
-  warning: Stop spamming the server or you will be kicked!
-  kick_reason: Kicked for spamming
-  ban_reason: Banned for spamming
-  kick_broadcast: '[AntiCheat] &player was kicked for spamming'
-  ban_broadcast: '[AntiCheat] &player was banned for spamming'
+  warning: Pare com o spam ou sera kickado!
+  kick_reason: Kickado por fazer spam
+  ban_reason: Banido por fazer spam
+  kick_broadcast: '[Antihack] &player foi kickado por spam'
+  ban_broadcast: '[AntiCheat] &player foi banido por spam'
